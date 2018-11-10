@@ -1,0 +1,500 @@
+   50   git commit . -am "提交审核500bug,提交订单返回了id"
+   51  git commit -am . "提交审核500bug,提交订单返回了id"
+   52  git commit -m . "提交审核500bug,提交订单返回了id"
+   53  git commit -m . '提交审核500bug,提交订单返回了id'
+   54  git commit . -am '提交审核500bug,提交订单返回了id'
+   55  git add .
+   56  git commit -m " git commit . -am "提交审核500bug,提交订单返回了id""
+   57  git push
+   58  git commit . -add
+   59  git commit -am "修改单个下单bug,单个下单返回了id"
+   60  git push
+   61  git commit -am "完善微信支付参数"
+   62  git push
+   63  git commit . -am "修复微信支付bug"
+   64  git commit . -am "修复微信支付bug"
+   65  git add .
+   66  git commit -m "修复微信支付bug"
+   67  git push
+   68  git commit . -am "支付金额bug修改,增加了支付推送模板的测试(目前测试是在支付前发送模板)"
+   69  git add . 
+   70  git commit -m "支付金额bug修改,增加了支付推送模板的测试(目前测试是在支付前发送模板)"
+   71  git push
+   72  git add . 
+   73  git status
+   74  git commit -m "修改支付回调bug"
+   75  git push
+   76  git add .
+   77  git commit -m "支付回调先保存一下结果到数据库,用做测试"
+   78  gitn push
+   79  git push
+   80  git push --help
+   81  git pull
+   82  git add .
+   83  git commit -m "微信回调信息加入数据库,暂时用作测试"
+   84  git push
+   85  git add . 
+   86  git commit -m "继续改微信回调bug"
+   87  git push
+   88  git add . 
+   89  git commit -m "支付回调bug...."
+   90  git push
+   91  git add .
+   92  git commit -m "改支付回调bug"
+   93  git push
+   94  git pull
+   95  git push
+   96  git pull
+   97  git pull
+   98  git log
+   99  git reset --hard ed59b42
+  100  git add .
+  101  git commit -m "完善支付回调(模板消息发送待改)"
+  102  git push
+  103  git pull
+  104  ;wq
+  105  :wq
+  106  git push
+  107  git pull
+  108  git fetch
+  109  git checkout -b develop origin/develop
+  110  git pull
+  111  git status
+  112  git log
+  113  git status
+  114  git reset --hard FETCH_HEAD
+  115  git pull
+  116  git pull
+  117  git add .
+  118  git commit -m "完善支付回调(发送模板消息待改)"
+  119  git push
+  120  git pull
+  121  git add .
+  122  git commit -m "修改支付接口功能,支持多订单支付"
+  123  git push
+  124  git pull
+  125  git add .
+  126  git commit -m "微信支付加了配送费用"
+  127  git push
+  128  git pull
+  129  git pull
+  130  git add .
+  131  git commit -m "购物车下单,直接下单个订单,计算价格加入了配送费"
+  132  git push
+  133  git pull
+  134  git pull
+  135  git pull
+  136  git add .
+  137  git commit -m "查看购物车接口每条订单条目返回了json格式的商店信息"
+  138  git push
+  139  git pull
+  140  git add .
+  141  git commit -m "修改发送模板消息测试版"
+  142  git push
+  143  git pull
+  144  git pull
+  145  git pull
+  146  git add .
+  147  git commit -m "改测试版微信支付模板消息bug"
+  148  git push
+  149  git add .
+  150  git commit -m "帮曽跃改了下,防冲突"
+  151  git push
+  152  git pull
+  153  git add .
+  154  git commit -m "修改店铺回显时间修改bug"
+  155  git push
+  156  git pull
+  157  git add .
+  158  git commit -m "店铺回显时间修改(修改店铺,查看店铺,创建店铺)"
+  159  git push
+  160  git add .
+  161  git commit -m "微信支付支持两种订单"
+  162  git push
+  163  git log
+  164  git reset --hard 0c11e3b
+  165  git log --stat
+  166  git pull
+  167  git add .
+  168  git commit -m "改配置出的问题"
+  169  git push
+  170  git add .
+  171  git commit -m "改时间回显"
+  172  git push
+  173  git add .
+  174  git commit -m "改回之前微信支付(暂时不支持diy订单支付)"
+  175  git push
+  176  git add .
+  177  git commit -m "diyorder支付"
+  178  git push
+  179  git add .
+  180  git commit -m "改模板消息发送"
+  181  git push
+  182  git add .
+  183  git commit -m "改模板消息发送"
+  184  git push
+  185  git add .
+  186  git commit -m "模板消息增加数据"
+  187  git push
+  188  git pull
+  189  git add .
+  190  git commit -m "改善支付成功模板消息发送"
+  191  git push
+  192  git add .
+  193  git commit -m "接单成功模板消息发送"
+  194  git push
+  195  git add .
+  196  git commit -m "模板消息(发货提醒)"
+  197  git push
+  198  git add .
+  199  git commit -m "改回之前版本,目前只有支付成功模板消息"
+  200  git push
+  201  git pull
+  202  git add .
+  203  git commit -m "加了其他模板消息的模板(暂时缺form_id参数)"
+  204  git push
+  205  git pull
+  206  git pull
+  207  git pull
+  208  git add .
+  209  git commit -m "退款功能接口,结果暂未存数据库"
+  210  git push
+  211  git pull
+  212  git add .
+  213  git commit -m "diyOrder支付和回调存数据库新建wx_diypay_result"
+  214  git push
+  215  git add .
+  216  git commit -m "diyOrder退款(暂未存数据库)"
+  217  git push
+  218  git add .
+  219  git commit -m "diyOrder四个模板消息的发送"
+  220  git push
+  221  git status
+  222  git log
+  223  git add .
+  224  git commit -m "diyOrder支付成功发送模板消息"
+  225  git push
+  226  git pull
+  227  git add .
+  228  git commit -m "diyOrder和Order退款存入数据库"
+  229  git push
+  230  git add .
+  231  git commit -m "改支付bug"
+  232  git push
+  233  git pull
+  234  git pull
+  235  git add.
+  236  git add .
+  237  git pull
+  238  git add .
+  239  git add .
+  240  git commit -m "查看店铺等店铺回显时间修改"
+  241  git push
+  242  git add .
+  243  git commit -m "diywork分页显示bug"
+  244  git push
+  245  git pull
+  246  git pull
+  247  git pull 
+  248  git add .
+  249  git commit -m "所有接口涉及total总数的回显"
+  250  git push
+  251  git pull
+  252  git pull
+  253  git add .
+  254  git commit -m "增加搜索关键字的两个接口"
+  255  git push
+  256  git pull
+  257  git pull
+  258  git pull
+  259  git add .
+  260  git commit -m "order和diyorder的取消订单,拒绝订单退款"
+  261  git push
+  262  git pull
+  263  git add .
+  264  git commit -m "店铺交易额,今日交易额显示修改"
+  265  git push
+  266  git pull
+  267  git add .
+  268  git commit -m "取消订单,拒绝订单,加了校验(测试bug)"
+  269  git push
+  270  git add .
+  271  git commit -m ""
+  272  git add .
+  273  git commit -m "模板消息内容修改"
+  274  git push
+  275  git add .
+  276  git commit -m "模板消息内容"
+  277  git push
+  278  git add .
+  279  git commit -m "拒绝订单,取消订单bug"
+  280  git push
+  281  git add .
+  282  git commit -m "取消订单等退款bug"
+  283  git push
+  284  git pull
+  285  git log
+  286  git reset --3ac8d364d
+  287  git reset --hard d364d
+  288  git reset --hard 3ac8d364d1aa64f
+  289  git pull
+  290  git add .
+  291  git commit -m "修复支付模板消息bug"
+  292  git push
+  293  git add .
+  294  git commit "模板消息,统计查询"
+  295  git commit -m "模板消息,统计查询"
+  296  git push
+  297  git add .
+  298  git commit -m "diyOrder模板消息改bug"
+  299  git push
+  300  git add .
+  301  git commit -m "口味image字段添加"
+  302  git push
+  303  git pull
+  304  git add .
+  305  git commit -m "下单diy和普通order的三个接口的备注信息,缺少的口味image字段回显"
+  306  git push
+  307  git add .
+  308  git commit -m "模板消息发送(还差一个diyorder的配送模板消息)"
+  309  git pull
+  310  git push
+  311  git log
+  312  git add .
+  313  git commit -m "退款失败订单状态不变"
+  314  git push
+  315  git add .
+  316  git commit -m "模板消息电话修改"
+  317  git push
+  318  git add .
+  319  'git add .
+  320  git add .
+  321  git commit -m ""
+  322  git add .
+  323  git commit -m ""
+  324  git commit -m "改退款信息"
+  325  git push
+  326  git add .
+  327  git pull
+  328  git add .
+  329  git commit -m "改注册接口"
+  330  git push
+  331  git add .
+  332  git commit -m "openid參數"
+  333  git push
+  334  git pull
+  335  git pull
+  336  git add .
+  337  git commit -m "改模板id,wxsecret等信息"
+  338  git push
+  339  git pull
+  340  git add .
+  341  git commit -m "支付的一些配置"
+  342  git push
+  343  git add .
+  344  git commit -m "改了下商户密码"
+  345  git push
+  346  git add .
+  347  git commit -m "改模板消息id"
+  348  git push
+  349  git pull
+  350  git add .
+  351  git commit -m "修改退款回显商品内容"
+  352  git push
+  353  git add .
+  354  git commit -m "改支付商品信息"
+  355  git push
+  356  git add .
+  357  git commit -m "继续改支付商品信息"
+  358  git push
+  359  git log
+  360  git reset --hard 9394d3804e
+  361  git add .
+  362  git commit -m "改商品信息"
+  363  git push
+  364  git push -f
+  365  git add .
+  366  git commit -m "支付信息"
+  367  git push
+  368  git add .
+  369  git commit -m ""
+  370  git commit -m "改支付信息"
+  371  git push
+  372  git add .
+  373  git commit  "改支付信息"
+  374  git commit -m "改支付信息"
+  375  git push
+  376  git add .
+  377  git commit -m "diy支付信息"
+  378  git push
+  379  git add .
+  380  git commit -m "支付模板页面跳转"
+  381  git push
+  382  git add .
+  383  git commit -m "模板消息页面跳转"
+  384  git push
+  385  git add .
+  386  git commit -m "模板消息页面跳转"
+  387  git push
+  388  git add .
+  389  git commit -m "修改商家统计金额"
+  390  git push
+  391  git add .
+  392  git commit -m "diy模板消息跳转"
+  393  git push
+  394  git add .
+  395  git commit -m "改统计信息"
+  396  git push
+  397  git add .
+  398  git commit -m "改统计bug"
+  399  git push
+  400  git add .
+  401  git commit -m "再提交一次看"
+  402  git push
+  403  git add .
+  404  git commit -m "商家审核"
+  405  git push
+  406  git add .
+  407  git reset HEAD .
+  408  git pull
+  409  git add .
+  410  git commit -m "退款加入订单类型和结果"
+  411  git push
+  412  git log
+  413  git log
+  414  git reset --hard 21c16a2b5c0b541
+  415  git add .
+  416  git add .
+  417  git commit -m "本地文件出了问题,回退了一下"
+  418  git push
+  419  git push -f -u origin master  
+  420  git add .
+  421  git commit -m "退款信息数据库表增加订单类型和结果"
+  422  git push
+  423  #!/bin/sh
+  424  # Licensed to the Apache Software Foundation (ASF) under one or more
+  425  # contributor license agreements.  See the NOTICE file distributed with
+  426  # this work for additional information regarding copyright ownership.
+  427  # The ASF licenses this file to You under the Apache License, Version 2.0
+  428  # (the "License"); you may not use this file except in compliance with
+  429  # the License.  You may obtain a copy of the License at
+  430  #
+  431  #     http://www.apache.org/licenses/LICENSE-2.0
+  432  #
+  433  # Unless required by applicable law or agreed to in writing, software
+  434  # distributed under the License is distributed on an "AS IS" BASIS,
+  435  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  436  # See the License for the specific language governing permissions and
+  437  # limitations under the License.
+  438  # -----------------------------------------------------------------------------
+  439  # Start Script for the CATALINA Server
+  440  #
+  441  # $Id: startup.sh 1202062 2011-11-15 06:50:02Z mturk $
+  442  # -----------------------------------------------------------------------------
+  443  # Better OS/400 detection: see Bugzilla 31132
+  444  os400=false
+  445  case "`uname`" in OS400*) os400=true;; esac
+  446  # resolve links - $0 may be a softlink
+  447  PRG="$0"
+  448  while [ -h "$PRG" ] ; do   ls=`ls -ld "$PRG"`;   link=`expr "$ls" : '.*-> \(.*\)$'`;   if expr "$link" : '/.*' > /dev/null; then     PRG="$link";   else     PRG=`dirname "$PRG"`/"$link";   fi; done
+  449  PRGDIR=`dirname "$PRG"`
+  450  EXECUTABLE=catalina.sh
+  451  # Check that target executable exists
+  452  if $os400; then   eval; else   if [ ! -x "$PRGDIR"/"$EXECUTABLE" ]; then     echo "Cannot find $PRGDIR/$EXECUTABLE";     echo "The file is absent or does not have execute permission";     echo "This file is needed to run this program";     exit 1;   fi; fi
+  453  exec "$PRGDIR"/"$EXECUTABLE" start "$@"
+  454  git cclone 
+  455  git clone https://github.com/jimzhou2015/dom4j-big-xml.git
+  456  git clone https://github.com/Carl1004d/AllCode.git
+  457  git add .
+  458  git add 
+  459  git pull https://github.com/Carl1004d/AllCode.git
+  460  git pull https://github.com/Carl1004d/AllCode.git
+  461  git clone https://github.com/Carl1004d/AllCode.git
+  462  git remote add origin https://github.com/Carl1004d/AllCode.git
+  463  echo "# AllCode" >> README.md
+  464  git init
+  465  git add README.md
+  466  git commit -m "first commit"
+  467  git remote add origin https://github.com/Carl1004d/AllCode.git
+  468  git push -u origin master
+  469  git add .
+  470  git commit -m " "
+  471  git init
+  472  git clone https://github.com/Carl1004d/AllCode.git
+  473  git add .
+  474  git add .
+  475  git commit -m " "
+  476  git remote add origin https://github.com/Carl1004d/AllCode.git
+  477  git commit -m " "
+  478  git add .
+  479  git remote add origin https://github.com/Carl1004d/AllCode.git
+  480  git remote add origin git@github.com:Carl1004d/AllCode.git
+  481  git remote add origin https://github.com/Carl1004d/AllCode.git
+  482  git init
+  483  git remote add origin git@github.com:Carl1004d/TempCode.git
+  484  git push -u origin master
+  485  git add .
+  486  git commit -m " "
+  487  git commit -m "aaa"
+  488  git push
+  489  git push --set-upstream origin master
+  490  git init
+  491  git remote add origin git@github.com:Carl1004d/TempCode.git
+  492  git push -u origin master
+  493  git push
+  494  git push --set-upstream origin master
+  495  git push -u origin master
+  496  git pull
+  497  git remote remove origin
+  498  git remote add origin https://github.com/Carl1004d/TempCode.git
+  499  git pull
+  500  git push -u origin master
+  501  clear
+  502  pwd
+  503  cd /e/mxq/JEE/JEEcode/算法练习
+  504  cd :e/mxq/JEE/JEEcode/算法练习
+  505  cd :mxq/JEE/JEEcode/算法练习
+  506  cd e:/
+  507  cd mxq/JEE/JEEcode/算法练习
+  508  cd mxq/
+  509  cd mxq
+  510  pwd
+  511  ls
+  512  cd mxq
+  513  cd ./JEE/JEEcode/算法练习
+  514  clear
+  515  ls
+  516  cd ..
+  517  cd -
+  518  git clone git@github.com:Carl1004d/algorithm.git
+  519  ssh
+  520  cd ~/.ssh
+  521  ls
+  522  cat id_rsa.pub 
+  523  pwd
+  524  cd -
+  525  git clone git@github.com:Carl1004d/algorithm.git
+  526  clear
+  527  git clone git@github.com:Carl1004d/algorithm.git
+  528  cat id_rsa.pub 
+  529  cat ~/.ssh/id_rsa.pub 
+  530  git config --global user.name “y"Carl1004d"
+  531  git config --global user.email "841352366@qq.com"
+  532  git clone git@github.com:Carl1004d/algorithm.git
+  533  git clone git@github.com:Carl1004d/algorithm.git
+  534  clear
+  535  ls
+  536  mv src/ algorithm/
+  537  ls
+  538  ls
+  539  cd algorithm/
+  540  ls
+  541  git add .
+  542  git comment -m "add src/ files"
+  543  git commint -m "add src/ files"
+  544  git commit -m "add src/ files"
+  545  clear
+  546  git push origin master 
+  547  history 
+  548  clear
+  549  history > help.txt
