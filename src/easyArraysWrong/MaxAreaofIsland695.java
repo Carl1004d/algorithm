@@ -42,5 +42,4 @@ public class MaxAreaofIsland695 {
 
 		return num;
 	}
-
 }

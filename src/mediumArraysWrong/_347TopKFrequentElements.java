@@ -8,6 +8,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+/**
+ * Given a non-empty array of integers, return the k most frequent elements.
+ * 
+ * Example 1:
+ * 
+ * Input: nums = [1,1,1,2,2,3], k = 2 Output: [1,2] Example 2:
+ * 
+ * Input: nums = [1], k = 1 Output: [1]
+ *
+ */
 public class _347TopKFrequentElements {
 	// 1 2 3 4 5 6 7 8
 	// 10 20 13 41 28 40 24 33
@@ -19,6 +29,7 @@ public class _347TopKFrequentElements {
 		q.add(3);
 		System.out.println(q);
 	}
+
 	// 用优先队列(最大堆)实现
 	public List<Integer> topKFrequent2(int[] nums, int k) {
 		// build hash map : character and how often it appears
@@ -38,7 +49,7 @@ public class _347TopKFrequentElements {
 
 		// build output list
 		List<Integer> top_k = new LinkedList();
-		for(int i = 0 ; i < k; i++)
+		for (int i = 0; i < k; i++)
 			top_k.add(heap.poll());
 		return top_k;
 	}

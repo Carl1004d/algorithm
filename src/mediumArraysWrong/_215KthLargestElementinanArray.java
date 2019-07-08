@@ -1,5 +1,5 @@
 package mediumArraysWrong;
-
+// 三路快排
 public class _215KthLargestElementinanArray {
 	public static void main(String[] args) {
 		int[] a = {3,2,1,5,6,4};
@@ -23,11 +23,12 @@ public class _215KthLargestElementinanArray {
 		}
 		return nums[nums.length-k];
 	}
-
+	// 三路快排
 	public int partition(int[] nums, int lo, int hi) {	// 排[lo,....,hi]
+		// i 表示小于temp的最后位置,j 表示大于temp的开始位置
 		int i = lo - 1;
 		int j = hi + 1;
-		int temp = nums[lo];
+		int temp = nums[lo];	// 中间值
 		int t = lo;
 		for(; t < j;){
 			if(nums[t] == temp){

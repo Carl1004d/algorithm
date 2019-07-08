@@ -12,7 +12,6 @@ public class _003Sum15 {
 		List<List<Integer>> list = new ArrayList<>();
 		int length = nums.length;
 		Arrays.sort(nums);
-//		int length = nums.length;
 		for (int i = 0; i < length; i++) {
 			if (nums[i] > 0)
 				break;

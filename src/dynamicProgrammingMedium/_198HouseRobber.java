@@ -38,6 +38,7 @@ public class _198HouseRobber {
 		return result[length];
 	}
 
+	// 贪心算法
 	public int rob2(int[] nums) {
 		int a = 0;
 		int b = 0;

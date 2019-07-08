@@ -7,8 +7,11 @@ package dynamicProgrammingMedium;
  * Example:
  * 
  * Input:
- * 
- * 1 0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 0 0 1 0
+ * 1 0 1 0 
+ * 0 1 0 1 
+ * 1 1 1 1 
+ * 1 1 1 1 
+ * 0 0 1 0
  * 
  * Output: 4
  */

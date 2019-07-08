@@ -16,6 +16,13 @@ import java.util.List;
  * Input: [1,1,1,3,3,2,2,2] Output: [1,2]
  */
 public class _229MajorityElementII {
+	public static void main(String[] args) {
+		_229MajorityElementII o = new _229MajorityElementII();
+		List<Integer> majorityElement = o.majorityElement(new int[]{1,2,1,3,1,4,5,6,1,7});
+		for (Integer integer : majorityElement) {
+			System.out.println(integer);
+		}
+	}
 	public List<Integer> majorityElement(int[] nums) {
 		if (nums == null || nums.length == 0)
 			return new ArrayList<Integer>();

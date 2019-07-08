@@ -9,7 +9,11 @@ package mediumArraysWrong.递归回溯;
  * 
  * Example:
  * 
- * board = [ ['A','B','C','E'], ['S','F','C','S'], ['A','D','E','E'] ]
+ * board = [ 
+ * ['A','B','C','E'], 
+ * ['S','F','C','S'], 
+ * ['A','D','E','E'] 
+ * ]
  * 
  * Given word = "ABCCED", return true. Given word = "SEE", return true. Given
  * word = "ABCB", return false.

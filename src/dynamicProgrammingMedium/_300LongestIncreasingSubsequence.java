@@ -13,7 +13,7 @@ package dynamicProgrammingMedium;
  * return the length. Your algorithm should run in O(n2) complexity.
  */
 
-// 有点难...这个思路是存放每个数对应的之前所有小于这个数中的最大的子序列长度加一
+// 有点难...这个动态规划抽象出的思路是存放每个数对应的之前所有小于这个数中的最大的子序列长度加一(他自己),得到的就是算上这个数可以得到的最大子序列长度
 public class _300LongestIncreasingSubsequence {
 	public int lengthOfLIS(int[] nums) { // {10,9,2,5,3,7,101,18}
 		if (nums.length == 0) {

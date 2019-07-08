@@ -23,5 +23,9 @@ public class _045JumpGame {
 		}
 		return true;
 	}
-
+	public static void main(String[] args) {
+//		System.out.println("af沃尔d从".length());
+		char s = '是';
+		System.out.println(s+1);
+	}
 }

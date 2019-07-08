@@ -39,3 +39,7 @@ public class _063UniquePathII {
 		return result[row - 1];
 	}
 }
+/**
+ * 动态规划,可以result[][]
+ * 之后优化成result[]   result[i] = result[i]+result[i-1]
+ */
